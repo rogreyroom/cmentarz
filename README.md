@@ -10,22 +10,17 @@ i zmarłych, raporty o zbliżających się płatnościach.
 technologie: **Electron**, baza danych **nedb**, framework **Vue**
 biblioteki: **lodash**, **dateformat**, **pikaday**, **joi**, **jimp**, **fs-jetpack**
 
-Projekt został zrealizowany w czasie od 2018'01 do 2018'04.
+Projekt został zrealizowany w czasie od 201801 do 201804.
 
 Wszystkich użytych w projekcie narzędzi uczyłem się w trakcie jego pisania.
 
 ## Zrzuty ekranu
 
-[Konfigurator cmantarza]('readme-images/konfigurator.png')
-[Lista grobów]('readme-images/lista-grobow.png')
-[Dodawanie grobu]('readme-images/dodaj-grob.png')
-[Dodawanie danych opiekuna grobu]('readme-images/dane-opiekuna.png')
-[Mapa cmentarza]('readme-images/mapa-cmentarza.png')
-
-## Data powstania
-
-
-
+![Konfigurator cmantarza](readme-images/konfigurator.png)
+![Lista grobów](readme-images/lista-grobow.png)
+![Dodawanie grobu](readme-images/dodaj-grob.png)
+![Dodawanie danych opiekuna grobu](readme-images/dane-opiekuna.png)
+![Mapa cmentarza](readme-images/mapa-cmentarza.png)
 
 ## Build Setup
 
