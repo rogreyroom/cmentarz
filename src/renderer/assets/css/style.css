@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.edit,
+.add,
+.del {
+    position: relative;
+}
+
+.edit:hover::after,
+.add:hover::after,
+.del:hover::after {
+    /* content: "Edytuj"; */
+    background: rgb(30, 174, 219);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(30, 174, 219, 1) 0%, rgba(15, 160, 206, 1) 47%, rgba(30, 174, 219, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 174, 219, 1) 0%, rgba(15, 160, 206, 1) 47%, rgba(30, 174, 219, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 174, 219, 1) 0%, rgba(15, 160, 206, 1) 47%, rgba(30, 174, 219, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1eaedb', endColorstr='#1eaedb', GradientType=0);
+    /* IE6-9 */
+    border-radius: 12px 12px 12px 0;
+    position: absolute;
+    left: 110%;
+    bottom: 110%;
+    padding: .4em .8em;
+    font-size: .7em !important;
+    color: lightblue;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.edit:hover::after {
+    content: "Edytuj";
+}
+
+.add:hover::after {
+    content: "Dodaj";
+}
+
+.del:hover::after {
+    content: "Usuń";
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.left-spacing {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: #1eaedb;
+    cursor: pointer;
+}
+
+.min-col-width {
+    width: 6em;
+}
